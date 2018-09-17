@@ -1,0 +1,14 @@
+a = 0
+b = 32
+str = 'd4e8e1f4a0f7e1f3a0e6e1f3f4a1a0d4e8e5a0e6ece1e7a0e9f3baa0c4c4c3d4c6fbb9e1e6b3e3b9e4b3b7b7e2b6b1e4b2b6b9e2b1b1b3b3b7e6b3b3b0e3b9b3b5e6fd'
+# while b <= 134:
+#     jg = str[a:b]
+#     a = a + 1
+#     b = b + 1
+#     print(jg)
+
+for x in str:
+    x = str[a:b]
+    a += 1
+    b += 1
+    print(x)
